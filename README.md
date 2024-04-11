@@ -207,6 +207,20 @@ git push origin master
 brew update && brew upgrade
 ```
 
+## (Apple Silicon only) Local LLM (AI Chatbot)
+```zsh
+brew install ollama
+
+brew install raycast
+
+ollama pull mistral
+```
+
+You can use any other odel on [Ollama library](https://ollama.com/library)
+
+Install [Raycast plugin Ollama AI](https://www.raycast.com/massimiliano_pasquini/raycast-ollama) and follow instructions
+
+
 ## have fun 
 
 ```zsh
